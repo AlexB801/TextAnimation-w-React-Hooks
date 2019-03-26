@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <AnimatedText
-        textColor="#A9A9A9"
-        overlayColor="#fdc52c"
+        textColor="#565656"
+        overlayColor="#90ee90"
       >
         Alex Bennett
       </AnimatedText>
