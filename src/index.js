@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { AnimatedText } from "./AnimatedText";
+
+function App() {
+  return (
+    <div className="App">
+      <AnimatedText
+        textColor="#A9A9A9"
+        overlayColor="#fdc52c"
+      >
+        Alex Bennett
+      </AnimatedText>
+    </div>
+  );
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
