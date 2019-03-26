@@ -12,6 +12,7 @@ function App() {
       >
         Alex Bennett
       </AnimatedText>
+      <p>Move Cursor over name for effect.</p>
     </div>
   );
 }
